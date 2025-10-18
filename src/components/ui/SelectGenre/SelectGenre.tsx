@@ -42,13 +42,14 @@ const SelectGenre = () => {
 
   return (
     <div className={css.select} ref={selectRef}>
-      <div
+      <button
+        type="button"
         className={`${css.selectHeader} ${isOpen ? css.open : ""}`}
         onClick={toggleDropdown}
       >
         <span className={css.selectedValue}>{selectedValue.label}</span>
         <span className={`${css.arrow} ${isOpen ? css.arrowOpen : ""}`}>▼</span>
-      </div>
+      </button>
 
       {isOpen && (
         <div className={css.selectDropdown}>
