@@ -1,6 +1,7 @@
 "use client";
 import { useQuery } from "@tanstack/react-query";
-import { moviesClass } from "../../services/movies-service";
+import { moviesClass } from "../services/movies-service";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   const {
@@ -23,5 +24,9 @@ export default function Home() {
     return <div>Фильмы не найдены</div>;
   }
 
-  return <>Hello</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }

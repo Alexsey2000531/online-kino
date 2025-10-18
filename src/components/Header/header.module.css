@@ -1,0 +1,30 @@
+.header {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      padding: 61px 28px 61px 19px;
+      max-width: 1920px;
+      height: 141px;
+      background-color: #181A19;
+}
+
+.menu {
+      display: flex;
+      flex-shrink: 0;
+      gap: 10px;
+      min-width: 600px;
+      list-style: none;
+}
+
+.link > a {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      text-decoration: none;
+      transition: all .5s;
+}
+
+.link > a:hover {
+      color: purple;
+}

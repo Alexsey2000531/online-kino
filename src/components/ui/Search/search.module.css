@@ -1,0 +1,38 @@
+::-ms-clear {
+      display: none;
+}
+
+.search {
+      display: flex;
+      flex-shrink: 0;
+      position: relative;
+      min-width: 320px;
+      height: 64px;
+      padding: 30px 22px 17px 21px;
+      margin-left: auto;
+      border-radius: 93px;
+      border: 2px solid #252a2c;
+      background: #1b1e1e;
+      font-size: 18px;
+      color: #6d7a7c;
+}
+
+.search > input {
+      width: 100%;
+      transform: translateY(-50%);
+      background: transparent;
+      color: #fff;
+      border: none;
+      outline: none;
+}
+
+.search > img {
+      position: absolute;
+      right: 22px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+}
+
+
+
